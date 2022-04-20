@@ -1,0 +1,74 @@
+#datos {
+  float: left;
+  width: 30%;
+  background-color: red;
+}
+#curriculo {
+  float: left;
+  width: 70%;
+  background-color: green;
+  padding: 0px;
+}
+#formacion,
+#experiencia {
+  float: left;
+  width: 50%;
+  background-color: orange;
+}
+#experiencia {
+  background-color: grey;
+}
+#formacion li,
+#experiencia li {
+  color: #00f;
+}
+#formacion li strong,
+#experiencia li strong {
+  color: #000;
+}
+@media (max-width: 600px) {
+  #datos,
+  #formacion,
+  #experiencia,
+  #curriculo {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+  #curriculo {
+    padding-bottom: 0px;
+  }
+  #experiencia {
+    background-color: red;
+  }
+  #formacion h1,
+  #experiencia h1 {
+    margin: 0px;
+  }
+  #formacion li,
+  #experiencia li {
+    color: white;
+  }
+}
+@media (min-width: 601px) and (max-width: 1200px) {
+  #curriculo {
+    padding-bottom: 15px;
+  }
+  #formacion,
+  #experiencia {
+    width: 100%;
+    margin-top: 15px;
+    background-color: orange;
+  }
+  #experiencia {
+    background-color: red;
+  }
+  #formacion h1,
+  #experiencia h1 {
+    margin: 0px;
+  }
+  #formacion li,
+  #experiencia li {
+    color: blue;
+  }
+}

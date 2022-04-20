@@ -1,0 +1,16 @@
+h2:first-letter {
+  font-size: 200%;
+}
+h2 + p {
+  text-indent: 2em;
+}
+.main a:before {
+  content: "\2192";
+}
+abbr:after {
+  content: " (" attr(title) ") ";
+}
+abbr{
+    font-style: italic;
+    text-decoration: none;
+}

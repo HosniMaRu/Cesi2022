@@ -1,0 +1,81 @@
+form div div {
+  border: blue solid 3px;
+  padding: 5px;
+  margin: 10px auto;
+  width: 50%;
+}
+form div div .green {
+  border: green solid 3px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 50%;
+  text-align: end;
+}
+form div {
+  width: 50%;
+  border: red solid 3px;
+  margin: 10px auto;
+  padding: 10px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+fieldset {
+  background-color: rgb(215 215 215);
+}
+.left {
+  width: 30%;
+  background-color: green;
+  color: white;
+}
+.right {
+  color: white;
+  width: 30%;
+  float: right;
+  background-color: red;
+}
+.right:hover {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+}
+form input,
+form textarea {
+  width: inherit;
+}
+form input[type="radio"] {
+  width: auto;
+}
+option:checked {
+  background-color: red;
+}
+optgroup {
+  background-color: green;
+}
+optgroup option {
+  background-color: blue;
+}
+form .select {
+  border: 3px solid orange;
+  overflow: hidden;
+  position: relative;
+}
+form .select::after {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: orange;
+  width: 50px;
+  height: 100%;
+  padding-top: 22px;
+  content: "\025be";
+  pointer-events: none;
+}
+form .select select {
+  font-size: 30px;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  background-color: blue;
+}

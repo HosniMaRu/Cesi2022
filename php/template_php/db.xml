@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list-users>
+    <user>
+        <name>Tove</name>
+        <email>Jani</email>
+        <password>Reminder</password>
+        <time>35</time>
+    </user>
+    <user>
+        <name>Tove-2</name>
+        <email>Jani-2</email>
+        <password>Reminder-2</password>
+        <time>35-2</time>
+    </user>
+</list-users>

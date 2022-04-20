@@ -1,0 +1,44 @@
+body {
+  background-color: #848484;
+}
+.form {
+  display: block;
+  background-color: #f2f2f2;
+  margin: 2vh auto;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
+  padding: 4vh;
+}
+.list {
+  list-style: none;
+  text-align: left;
+  display: grid;
+  word-break: break-all;
+}
+.list .property {
+  float: left;
+  width: 30%;
+}
+.list .value {
+  float: right;
+  width: 70%;
+  text-align: end;
+}
+.full {
+  color: green;
+}
+.requiered {
+  color: red;
+  text-transform: uppercase;
+}
+.empty {
+  color: orangered;
+}
+input[type="submit"] {
+  padding: 5px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(67, 102, 67);
+  color: white;
+}

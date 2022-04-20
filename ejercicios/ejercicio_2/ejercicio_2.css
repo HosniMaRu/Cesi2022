@@ -1,0 +1,33 @@
+#contenedor {
+  width: 70%;
+  margin: auto;
+  margin-top: 48px;
+}
+#cabecera {
+  font-size: 34px;
+}
+#menu {
+    margin: 5px;
+}
+#menu a {
+  text-decoration: none;
+}
+#menu li {
+  display: inline;
+  margin: 10px;
+}
+
+#menu li a:hover {
+    color: black;
+}
+#menu li a:visited {
+    color: red;
+}
+#contenido {
+  background-color: grey;
+  border: 2px red solid;
+  color: aliceblue;
+}
+.articulo h2 {
+  color: red;
+}

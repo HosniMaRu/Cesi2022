@@ -1,0 +1,33 @@
+.party {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	border-radius: 15px;
+	margin-bottom: 67px;
+}
+
+.party {
+	width: 76%;
+	padding-left: 50px;
+}
+.party .blue {
+	color: blue;
+}
+.party .red {
+	color: red;
+}
+.party .orange {
+	color: orange;
+	list-style-type: lower-roman;
+}
+.party .circle {
+	list-style-type: circle;
+}
+.party .green {
+	list-style-type: disc;
+	color: green;
+}
+.party .yellow {
+	list-style-type: upper-alpha;
+	color: yellow;
+}

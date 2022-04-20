@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FB</title>
+		<meta name="description" content="FB html-css" />
+		<meta name="author" content="Hosni" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1 class="left">facebook</h1>
+			<form class="left" action="./profile.html" method="post">
+				<div class="left">
+					<label for="userID">Correo o telefono</label>
+					<input type="text" name="userID" />
+					<input type="checkbox" name="session" value="true" />
+					<label class="session_label" for="session">No cerrar sesion</label>
+				</div>
+				<div class="left pass_content">
+					<label for="pass">Contraseña</label>
+					<input type="password" name="" id="" />
+					<a href="#">¿Has olvidado la contraseña?</a>
+				</div>
+				<div class="left submit_content" id="submit">
+					<input type="submit" value="Entrar" />
+				</div>
+			</form>
+		</header>
+		<main>
+			<section class="movil_connection left">
+				<h2>¿Vas a salir? Sigue en contacto</h2>
+				<p>Visita facebook.com con tu móvil.</p>
+				<div class="image">
+					<a href="#">Descubre Facebook Móvil</a>
+				</div>
+			</section>
+			<section class="login_form left">
+				<h1>Registrarse</h1>
+				<p>Es gratis y so será siempre.</p>
+				<form action="#" method="post">
+					<label for="fname"></label>
+					<input
+						class="input_name"
+						type="text"
+						name="fname"
+						id="fname"
+						placeholder="Nombre"
+						required
+					/>
+					<label for="lname"></label>
+					<input
+						class="input_name right"
+						type="text"
+						name="lname"
+						id="lname"
+						placeholder="Apellidos"
+					/>
+					<label for="email_phone"></label>
+					<input
+						class="input_width"
+						type="text"
+						name="email_phone"
+						id="email_phone"
+						placeholder="Correo electronico o número de móvil"
+					/>
+					<label for="email_phone2"></label>
+					<input
+						class="input_width"
+						type="text"
+						name="email_phone2"
+						id="email_phone2"
+						placeholder="Vuelve a introducir el correo electronico o número de móvil"
+					/>
+					<label for="password"></label>
+					<input
+						class="input_width"
+						type="password"
+						name="password"
+						id="password"
+						placeholder="Contraseña nueva"
+					/>
+					<label class="left input_width" for="date"
+						>Fecha de nacimiento:
+					</label>
+					<input class="date_width left" type="date" name="date" id="date" />
+					<p class="anchor_width">
+						<a href="#">¿Por qué tengo que dar mi fecha de nacimient?</a>
+					</p>
+					<div class="radio_content left">
+						<label for="gender"></label>
+						<input type="radio" name="female" id="gender" value="female" />
+						<label for="female">Mujer</label>
+						<input type="radio" name="male" id="gender" value="male" />
+						<label for="male">Hombre</label>
+					</div>
+					<p>
+						Al hacer clic en Registrarse, aceptas las
+						<a href="#">Condiciones</a> y confirmas que has leido nuestra
+						<a href="#">politica de datos</a>, incluido el
+						<a href="#">Uso de cookies</a>
+					</p>
+					<input type="submit" value="Registrarse" />
+				</form>
+				<div class="border">
+					<hr />
+					<p>
+						<a href="#">Crea una pagina</a> para un personaje publico, un grupo
+						de música o un negocio.
+					</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<li><a href="#">Español (España)</a></li>
+				<li><a href="#">Català</a></li>
+				<li><a href="#">English (US)</a></li>
+				<li><a href="#">Français (France)</a></li>
+				<li><a href="#">Italiano</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

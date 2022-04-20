@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: rgb(24 41 242);
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+}
+.left {
+	float: left;
+}
+header h1 {
+	width: 53%;
+	margin-top: 25px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+header form {
+	width: 45%;
+	margin-left: 1%;
+}
+header form .left {
+	width: 30%;
+	padding: 12px 6px;
+	padding-top: 8px;
+}
+header form .left .session_label {
+	font-size: 13px;
+	vertical-align: text-top;
+}
+header form .left input[type="submit"] {
+	margin-top: 18px;
+	background-color: rgb(95 106 235);
+	border: none;
+	color: white;
+	font-size: 16px;
+}
+header form .left input[type="text"],
+header form .left input[type="password"] {
+	margin-bottom: 5px;
+	width: -webkit-fill-available;
+}
+header #submit {
+	width: 23%;
+}
+header a {
+	text-decoration: none;
+	color: white;
+	font-size: small;
+}
+
+main {
+	margin-top: 83px;
+	display: inline-block;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(210, 210, 223, 1) 67%,
+		rgba(146, 154, 241, 1) 100%
+	);
+}
+.first_form {
+	width: 100%;
+}
+main .movil_connection {
+	width: 53%;
+}
+main .movil_connection h2,
+main .movil_connection p {
+	margin-left: 50%;
+}
+main .movil_connection h2 {
+	margin-top: 29px;
+	font-size: 1em;
+}
+main .movil_connection img {
+	width: 98%;
+	margin: 1%;
+}
+main .movil_connection .image {
+	height: 300px;
+	width: 75%;
+	margin-left: 19%;
+	background-size: contain;
+	background-image: url(https://selectra.es/sites/selectra.es/files/styles/article_hero/public/images/movil-prepago-825x293_0.png?itok=od7l3gkM);
+	background-repeat: no-repeat;
+}
+main .movil_connection a {
+	font-weight: bold;
+	max-width: 290px;
+	display: inline-block;
+	margin-top: 35px;
+	margin-left: 59%;
+	text-decoration: none;
+	color: black;
+	background-color: rgb(224 224 225);
+	border: 1px solid black;
+	padding: 2px;
+}
+main .login_form {
+	width: 35%;
+}
+main .login_form input[type="text"],
+main .login_form input[type="date"],
+main .login_form input[type="password"] {
+	padding: 1%;
+	margin: 1%;
+}
+main .login_form .input_name {
+	width: 42%;
+}
+main .login_form .right {
+	float: right;
+}
+main .login_form .input_width {
+	width: 95%;
+}
+main .login_form .date_width {
+	width: 39%;
+}
+main .login_form .radio_content {
+	width: 100%;
+	margin: 1%;
+	margin-bottom: 6%;
+}
+main .login_form form p {
+	width: 90%;
+}
+main .login_form form .anchor_width {
+	width: 86%;
+}
+a {
+	text-decoration: none;
+}
+main .login_form input[type="submit"] {
+	width: 47%;
+	padding: 2%;
+	background-color: green;
+	color: white;
+	border: 1px #584d4d solid;
+	border-radius: 6px;
+}
+hr {
+	border-color: #0000004d;
+	margin: 4% 0;
+}
+footer {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+footer ul {
+	margin: 5px 10px;
+}
+footer ul li {
+	display: inline;
+	margin: 0 15px;
+}
+@media screen and (max-width: 1290px) {
+	main {
+		margin-top: 99px;
+	}
+}
+@media screen and (max-width: 915px) {
+	main {
+		margin-top: 101px;
+	}
+}
+@media screen and (max-width: 904px) {
+	main {
+		margin-top: 126px;
+	}
+	.pass_content,
+	.submit_content {
+		margin-top: 18px;
+	}
+}
+@media screen and (max-width: 887px) {
+	main {
+		margin-top: 119px;
+	}
+}
+@media screen and (max-width: 556px) {
+	main {
+		margin-top: 137px;
+	}
+}

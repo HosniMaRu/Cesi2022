@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list-users>
+    <user>
+        <name>Tove</name>
+        <email>Jani</email>
+        <password>Reminder</password>
+        <time>2022-03-25</time>
+        <gender>Mujer</gender>
+        <code_Type>HTML</code_Type>
+        <date>2022-03-24</date>
+        <permissions>true</permissions>
+        <politicy>true</politicy>
+    </user>
+    <user>
+        <name>Tove-2</name>
+        <email>Jani-2</email>
+        <password>Reminder-2</password>
+        <time>2022-03-20</time>
+        <gender>Mujer</gender>
+        <code_Type>HTML</code_Type>
+        <date>2022-03-24</date>
+        <permissions>false</permissions>
+        <politicy>true</politicy>
+    </user>
+<user><name>aaaaaaaaa</name><email>asdasd@gmail.com</email><password>aaaaaaaaaa</password><time>2022-03-24</time><gender>mujer</gender><code_Type>html</code_Type><date>1648076400</date><permissions>true</permissions><politicy>true</politicy></user><user><name>aaaaaaaaa</name><email>asdasd@gmail.com</email><password>aaaaaaaaaa</password><time>2022-03-24</time><gender>mujer</gender><code_Type>html</code_Type><date>1648076400</date><permissions>true</permissions><politicy>true</politicy></user><user><name>aaaaaaaa</name><email>asdasd@gmail.com</email><password>asd</password><time>1648677600</time><gender>Hombre</gender><code_Type>html</code_Type><date>1648677600</date><permissions>true</permissions><politicy>true</politicy></user></list-users>

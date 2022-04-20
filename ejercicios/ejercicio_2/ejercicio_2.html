@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="Jesús Fernández Toledo" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./ejercicio_2.css" />
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="../../menu/menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#includedContent").load("../../menu/menu.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="includedContent"></div>
+    <!--Contenedor-->
+    <div id="contenedor">
+      <!--Cabecera-->
+      <div id="cabecera">
+        <div id="logo">
+          <h2>LOGOTIPO</h2>
+        </div>
+      </div>
+      <!--/Cabecera-->
+      <!--Menú Principal-->
+      <div id="menu">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre Nosostros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <!--/Menú Principal-->
+      <!--Contenido-->
+      <div id="contenido">
+        <div class="articulo">
+          <h2>Provincias Castilla-La Mancha</h2>
+          <p>Albacete</p>
+          <p>Ciudad Real</p>
+          <p>Cuenca</p>
+          <p>Guadalajara</p>
+          <p>Toledo</p>
+          <p><a href="#">Seguir Leyendo ...</a></p>
+        </div>
+      </div>
+      <!--/Contenido-->
+    </div>
+    <!--/Contenedor-->
+  </body>
+</html>

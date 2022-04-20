@@ -1,0 +1,58 @@
+body {
+  background-color: #848484;
+}
+#texto1 {
+  width: 70%;
+  float: left;
+  word-wrap: break-word;
+  font-family: Verdana;
+  font-size: 150%;
+  text-align: justify;
+  background-color: Tomato;
+  padding-bottom: 2em;
+}
+#p_texto1 {
+  text-align: center;
+  background-color: aliceblue;
+  text-decoration: line-through;
+}
+#imagen1 {
+  width: 28%;
+  float: right;
+  border-style: dotted;
+  border-color: rgb(255, 251, 0);
+  border-width: 5px;
+  border-radius: 5px;
+}
+#separacion {
+  clear: both;
+  background-color: white;
+}
+#texto2 {
+  width: 69%;
+  float: right;
+  word-wrap: break-word;
+  font-family: Verdana;
+  font-size: 150%;
+  text-align: justify;
+  background-color: rgb(71, 255, 215);
+  border: dotted red;
+}
+#p_texto2 {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+}
+#imagen2 {
+  width: 28%;
+  float: left;
+
+  border-style: dotted;
+  border-color: green;
+  border-width: 5px;
+  border-radius: 5px;
+}
+.imagenes {
+    max-width: 100%;
+    height: auto;
+}

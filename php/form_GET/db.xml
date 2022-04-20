@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list-users>
+    <user>
+        <name>1</name>
+        <date>1648714305</date>
+        <email>f3b01236130d2a12b54de4ab766bd103295b6a1adef955c58f9f8e64006e9a43</email>
+        <password>0ab81cfa21c4432e4accae1190d4aad952220cf48f160c28d5a11700bd138699</password>
+    </user>
+    <user>
+        <name>1</name>
+        <date>1648714389</date>
+        <email>ab1390a315a319bb9f880f3086e6933c472e50590b591c88b6d38e36099863ad</email>
+        <password>03e3b01b0053aecde0cd4367e816ad4333bd3c4f21e623681d8c9147d01c975e</password>
+    </user>
+    <user>
+        <name>2</name>
+        <date>1648714447</date>
+        <email>20a6890a4318da11fec6dfdaff4006731ad9015edb9f71389d926c48c92c25b9</email>
+        <password>43127f8e6e10d157a21df455e5f55a92bf03e629ad2cd0bb4ca38a1db6e01c9e</password>
+    </user>
+</list-users>

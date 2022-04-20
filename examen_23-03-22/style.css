@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: red;
+  text-align: center;
+}
+header h1 {
+  text-transform: uppercase;
+}
+header a {
+  text-decoration: overline;
+  color: yellow;
+}
+header div {
+  margin: auto;
+  width: fit-content;
+}
+header ul {
+  background-color: green;
+  white-space: nowrap;
+  width: 5px;
+  list-style-type: circle;
+}
+section {
+  background-color: yellow;
+  text-align: right;
+  text-transform: lowercase;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+section h1,
+section.top_stories p {
+  padding: 20px 2px 0;
+}
+section p {
+  color: red;
+  text-decoration: overline;
+}
+section article {
+  color: blue;
+  text-decoration: underline;
+}
+section.top_stories {
+  background-color: olive;
+}
+footer {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+}
+footer p.capitalize {
+  text-transform: capitalize;
+}
+div#left,
+div#right,
+div#center,
+div#justify {
+  background-color: green;
+  margin: 15px auto;
+  color: white;
+  font-size: smaller;
+  width: 90%;
+}
+div#left {
+  text-align: left;
+}
+div#right {
+  text-align: right;
+}
+div#center {
+  text-align: center;
+}
+div#justify {
+  text-align: justify;
+}
+div.orange,
+div.blue {
+  width: 35%;
+}
+div.orange {
+  background-color: orange;
+  float: left;
+  margin-left: 15%;
+}
+div.orange p {
+  text-decoration: line-through;
+  color: yellow;
+}
+div.blue {
+  background-color: blue;
+  float: right;
+  margin-right: 15%;
+}
+div.blue p {
+  color: tomato;
+}
+div.tomato {
+  text-transform: uppercase;
+  color: white;
+  width: 80%;
+  background-color: tomato;
+  margin: auto;
+  margin-top: 80px;
+}
+div.tomato p {
+  text-align: center;
+  color: green;
+  text-transform: capitalize;
+  font-size: larger;
+}

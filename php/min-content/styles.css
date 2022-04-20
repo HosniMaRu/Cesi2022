@@ -1,0 +1,18 @@
+.button_min_width input[type="button"] {
+  width: 20%;
+  min-width: 100px;
+}
+.button_min_width {
+  overflow: hidden;
+  border: solid red 1px;
+  min-width: min-content;
+  max-width: 30%;
+  margin: auto;
+  padding: 20px;
+}
+.button_min_width .right {
+  float: right;
+}
+.button_min_width .left {
+  float: left;
+}

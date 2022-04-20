@@ -1,0 +1,46 @@
+.table-content {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	border-radius: 15px;
+	margin-bottom: 67px;
+	padding: 16px;
+}
+.table-content h2 {
+	margin-left: 9%;
+}
+.table-content table {
+	margin: auto;
+	border-collapse: collapse;
+	word-break: break-all;
+	width: 80%;
+}
+.table-content table th {
+	background-color: red;
+	text-align: left;
+}
+.table-content table th,
+.table-content table td {
+	border: black solid 1px;
+	padding: 5px;
+}
+.table-content table th {
+	border: white solid 1px;
+}
+.table-content table .row-color {
+	background-color: grey;
+}
+.table-content table .result-table {
+	background-color: green;
+	text-align: center;
+}
+.table-content table tbody tr:hover,
+.table-content table .table-head tr:hover {
+	background-color: tomato;
+}
+.table-content table .table-head {
+	color: white;
+}
+.table-content table .result-table:hover {
+	background-color: red;
+}

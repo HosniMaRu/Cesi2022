@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Form_CSS" />
+    <meta name="author" content="Hosni" />
+    <title>Form</title>
+    <style>
+      form div div {
+        border: blue solid 3px;
+        padding: 5px;
+        margin: 10px auto;
+        width: 50%;
+      }
+      form div div .green {
+        border: green solid 3px;
+        padding: 10px;
+        margin: 10px auto;
+        width: 50%;
+        text-align: end;
+      }
+      form div {
+        width: 50%;
+        border: red solid 3px;
+        margin: 10px auto;
+        padding: 10px;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        opacity: 1;
+      }
+      fieldset {
+        background-color: rgb(215 215 215);
+      }
+      .left {
+        width: 30%;
+        background-color: green;
+        color: white;
+      }
+      .right {
+        color: white;
+        width: 30%;
+        float: right;
+        background-color: red;
+      }
+      .right:hover {
+        width: 30%;
+        float: right;
+        background-color: yellow;
+      }
+      form input {
+        width: inherit;
+      }
+      form input[type="radio"] {
+        width: auto;
+      }
+      option:checked {
+        background-color: red;
+      }
+      optgroup {
+        background-color: green;
+      }
+      optgroup option {
+        background-color: blue;
+      }
+      form .select {
+        border: 3px solid orange;
+        overflow: hidden;
+        position: relative;
+      }
+      form .select::after {
+        top: 0;
+        right: 0;
+        position: absolute;
+        background-color: orange;
+        width: 50px;
+        height: 100%;
+        padding-top: 31px;
+        text-align: center;
+        content: "\025be";
+        pointer-events: none;
+      }
+      form .select select option {
+        background-color: blue;
+      }
+      form .select select {
+        font-size: 30px;
+        height: 100%;
+        width: 100%;
+        padding: 15px;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>asd</legend>
+        <div>
+          <label for="datos_personales">Datos personales</label>
+          <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" placeholder="asd" autofocus />
+          </div>
+          <div>
+            <label for="tel">Telefono</label>
+            <input type="tel" name="tel" value="111222333" disabled />
+            <input type="tel" name="tel" placeholder="444555666" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="example@example.example"
+            />
+          </div>
+        </div>
+        <div>
+          <label for="radio_selector">selector</label>
+          <div>
+            <div class="green">
+              <input
+                type="radio"
+                name="radio_selector"
+                value="1"
+                id="1"
+                checked
+              />
+              <label for="1">1</label>
+            </div>
+            <div class="green">
+              <input type="radio" name="radio_selector" value="2" id="2" />
+              <label for="2">2</label>
+            </div>
+            <div class="green">
+              <input type="radio" name="radio_selector" value="3" id="3" />
+              <label for="3">3</label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <textarea name="textarea" id="" cols="3" rows="5"></textarea>
+        </div>
+        <div>
+          <div class="select">
+            <select name="select" id="">
+              <optgroup class="optgroup_1" label="hola">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+              </optgroup>
+              <optgroup class="red_hover" label="grupo 2">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </optgroup>
+              <option value="4">4</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label for="numero">numero</label>
+          <input type="number" name="numero" value="3" min="1" max="10" id="" />
+        </div>
+        <div>
+          <div>
+            <label for="week">semana</label>
+            <input type="week" name="week" value="2022-W20" id="" />
+          </div>
+          <div>
+            <label for="month">mes</label>
+            <input type="month" name="month" value="2022-04" id="" />
+          </div>
+          <div>
+            <label for="date">Fecha</label>
+            <input type="date" name="date" value="2022-11-03" id="" />
+          </div>
+        </div>
+        <div>
+          <label for="file"></label>
+          <input type="file" name="file" id="" accept=".zip" />
+        </div>
+        <div>
+          <input class="left" type="submit" value="SEND" />
+          <input class="right" type="reset" value="BORRAR" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

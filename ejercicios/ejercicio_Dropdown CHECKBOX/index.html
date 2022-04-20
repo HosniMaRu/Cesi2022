@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Responsive Navigation Bar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				list-style: none;
+				box-sizing: border-box;
+			}
+			body {
+				font-family: montserrat;
+			}
+			nav {
+				background: #022f69;
+				height: 80px;
+				width: 100%;
+			}
+			label.logo {
+				color: #fff;
+				font-size: 35px;
+				line-height: 80px;
+				padding: 0 100px;
+				font-weight: bold;
+			}
+			nav ul {
+				float: right;
+				margin-right: 20px;
+			}
+			nav ul li {
+				display: inline-block;
+				line-height: 80px;
+				margin: 0 5px;
+			}
+			nav ul li a {
+				color: #fff;
+				font-size: 17px;
+				padding: 7px 13px;
+				border-radius: 3px;
+				text-transform: uppercase;
+			}
+			a.active,
+			a:hover {
+				background: #fff;
+				transition: 0.5s;
+				color: #022f69;
+			}
+			.checkbtn,
+			.checkbtn2 {
+				cursor: pointer;
+			}
+			.checkbtn {
+				font-size: 30px;
+				color: #fff;
+				float: right;
+				line-height: 80px;
+				margin-right: 40px;
+			}
+			.checkbtn,
+			#check,
+			#check2 {
+				display: none;
+			}
+			#check2:checked ~ ul {
+				left: 0;
+				background: #022f69;
+				display: block;
+				top: 12%;
+				position: absolute;
+				right: 0px;
+				left: 90%;
+			}
+			nav ul li .dropdown-list {
+				width: 10%;
+				display: none;
+			}
+			@media screen and (max-width: 968px) {
+				label.logo {
+					font-size: 30px;
+					padding-left: 50px;
+				}
+				nav ul li a {
+					font-size: 16px;
+				}
+			}
+			@media screen and (max-width: 875px) {
+				.checkbtn {
+					display: block;
+				}
+				nav ul {
+					position: fixed;
+					width: 100%;
+					background: #27282c;
+					left: -100%;
+					text-align: center;
+					transition: all 0.5s;
+				}
+				nav ul li {
+					display: block;
+					margin: 50px 0;
+					line-height: 30px;
+				}
+				nav ul .dropdown ul li {
+					margin: 5px 0;
+				}
+				nav ul li .dropdown-list {
+					position: absolute;
+					left: 0;
+					top: -100%;
+					width: 100%;
+				}
+				nav ul li a {
+					font-size: 20px;
+				}
+				.checkbtn2:hover {
+					cursor: pointer;
+				}
+				a:hover,
+				a.active {
+					background: none;
+					color: #0082e6;
+				}
+				#check:checked ~ ul {
+					left: 0;
+				}
+				#check2:checked ~ ul {
+					left: 0;
+					top: 90%;
+					background: #022f69;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<input type="checkbox" id="check" />
+			<label for="check" class="checkbtn"> ASD </label>
+			<label class="logo">Codecary</label>
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+				<li class="dropdown">
+					<input type="checkbox" id="check2" />
+					<label for="check2" class="checkbtn2"> Dropdown </label>
+					<ul class="dropdown-list">
+						<li><a href="#">1111</a></li>
+						<li><a href="#">2222</a></li>
+						<li><a href="#">3333</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+}
+td {
+  border: solid 1px black;
+  padding: 14px;
+}
+caption {
+    margin: 15px;
+}
+.buttonTable {
+  padding: 10px;
+  margin: 50px 20px;
+}
+.center {
+  text-align: center;
+}
+.tdBlue {
+    background-color: blue;
+}
+.tdGreen {
+    background-color: green;
+}

@@ -1,0 +1,63 @@
+body {
+  background-color: #848484;
+  font-size: 10px;
+}
+.main-section {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  border-radius: 50px;
+  padding: 30px;
+}
+.main-section h1,
+.main-section h2 {
+  margin-top: 0;
+}
+.main-section p {
+  margin-bottom: 0;
+}
+.orange-section,
+.blue-section,
+.green-section {
+  margin: 15px;
+}
+.orange-section {
+  border-radius: 15px 50px 30px 5px;
+  background-color: orangered;
+  text-transform: lowercase;
+}
+.orange-section h1 {
+  text-transform: uppercase;
+}
+.blue-section {
+  text-transform: lowercase;
+  border-radius: 15px 50px;
+  background-color: blue;
+}
+.blue-section h2 {
+  text-transform: capitalize;
+}
+.green-section {
+  border-radius: 0px 15px 50px 50px;
+  background-color: green;
+  text-transform: lowercase;
+  text-align: center;
+}
+.green-section h1 {
+  text-align: left;
+  text-transform: uppercase;
+}
+.green-section p:first-letter {
+  text-transform: uppercase;
+}
+.figure {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.footer {
+  text-align: center;
+  background-color: red;
+}

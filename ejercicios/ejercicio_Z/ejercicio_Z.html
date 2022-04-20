@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Profe" />
+    <title></title>
+    <link rel="stylesheet" href="./ejercicio_Z.css" />
+    <link rel="stylesheet" href="../../menu/menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#includedContent").load("../../menu/menu.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="includedContent"></div>
+    <div class="main">
+      <div class="bloque1">BLOQUE 1</div>
+      <div class="bloque2">
+        BLOQUE 2
+        <div class="hijo1">Hijo 1 de bloque 2</div>
+        <div class="hijo2">Hijo 2 de bloque 2</div>
+        <div class="hijo3">hijo 3 de bloque 3</div>
+      </div>
+      <div class="bloque3">BLOQUE 3</div>
+    </div>
+  </body>
+</html>

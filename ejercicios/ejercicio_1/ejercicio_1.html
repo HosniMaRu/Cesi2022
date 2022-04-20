@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="Jesús Fernández Toledo" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="../../menu/menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#includedContent").load("../../menu/menu.html");
+      });
+    </script>
+    <link rel="stylesheet" href="./ejercicio1.css" />
+  </head>
+  <body>
+    <div id="includedContent"></div>
+    <div class="main">
+      <div id="texto1">
+        <b>#Texto1{width:70%;}#imagen1{float:right;}</b> En el momento en que
+        entiendo verdaderamente a mi enemigo,en el momento en que le entiendo lo
+        suficientemente bien como para derrotarle, entonces, en ese preciso
+        instante, también le quiero. Creo que es imposible entender realmente a
+        alguien, saber lo que quiere, saber lo que cree, y no amarle como se ama
+        a sí mismo. Y entonces, en ese preciso momento, cuando le quiero ...
+        <p id="p_texto1">- Orson Scott Card -</p>
+      </div>
+      <div id="imagen1">
+        <figure>
+          <img class="imagenes" src="../../img/imagen1.jpeg" alt="Orson Scott Card" />
+        </figure>
+      </div>
+      <div id="separacion">#separacion{clear:both;}</div>
+      <div id="texto2">
+        Si todo lo tomas personal, vivirás ofendido la mayor parte de tu vida,
+        recuerda que las personas no te hacen cosas: las personas hacen cosas y
+        tú decides si te afectan o no.
+        <p id="p_texto2">– El Principito-</p>
+      </div>
+      <div id="imagen2">
+        <figure>
+          <img
+            class="imagenes"
+            src="../../img/imagen2.jfif"
+            alt=""
+            width="200"
+            height="200"
+          />
+        </figure>
+      </div>
+    </div>
+  </body>
+</html>

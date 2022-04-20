@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../menu/menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#includedContent").load("../../menu/menu.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="includedContent"></div>
+    <div class="main">
+      <h1>curriculum Vitae de Bruce Wayne</h1>
+      <div id="datos">
+        <h1>datos personales</h1>
+        <ul>
+          <li>nombre completo: <strong>Bruce Wayne</strong></li>
+          <li>fcha de nacimiento: <strong>1/5/1939</strong></li>
+          <li>lugar de nacimiento: <strong>Gotham City</strong></li>
+        </ul>
+      </div>
+      <div id="curriculo">
+        <div id="formacion">
+          <h1>Formacion academica</h1>
+          <ul>
+            <li>1956-1961: <strong>Universidad del espantapajaros</strong></li>
+            <li>1952-1956: <strong>instituto de dos caras</strong></li>
+            <li>1944-1952: <strong>escuela primaria del joker</strong></li>
+          </ul>
+        </div>
+        <div id="experiencia">
+          <h1>experiencia laboral</h1>
+          <ul>
+            <li>1975-1985: <strong>en paro</strong></li>
+            <li>1965-1975: <strong>cazavillanos y demas chusma</strong></li>
+            <li>1962-1965: <strong>aprendiz de superheroe</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

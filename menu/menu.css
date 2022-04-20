@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: block;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 7;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.navbar-right {
+  float: right;
+}
+.main {
+  margin-top: 58px;
+}
+.dropdown {
+  float: left;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width: 765px) and (min-width: 587px) {
+  .main {
+    margin-top: 104px;
+  }
+}
+@media only screen and (max-width: 586px) and (min-width: 509px) {
+  .main {
+    margin-top: 150px;
+  }
+}
+@media only screen and (max-width: 508px) and (min-width: 395px) {
+  .main {
+    margin-top: 106px;
+  }
+}
+@media only screen and (max-width: 394px) and (min-width: 337px) {
+  .main {
+    margin-top: 152px;
+  }
+}
+@media only screen and (max-width: 336px) and (min-width: 281px) {
+  .main {
+    margin-top: 198px;
+  }
+}
+@media only screen and (max-width: 280px) and (min-width: 244px) {
+  .main {
+    margin-top: 200px;
+  }
+}
+@media only screen and (max-width: 243px) and (min-width: 206px) {
+  .main {
+    margin-top: 246px;
+  }
+}
+@media only screen and (max-width: 205px) and (min-width: 185px) {
+  .main {
+    margin-top: 294px;
+  }
+}
+@media only screen and (max-width: 184px) and (min-width: 180px) {
+  .main {
+    margin-top: 342px;
+  }
+}
+@media only screen and (max-width: 179px) and (min-width: 167px) {
+  .main {
+    margin-top: 390px;
+  }
+}
+@media only screen and (max-width: 166px) and (min-width: 100px) {
+  .main {
+    margin-top: 438px;
+  }
+}

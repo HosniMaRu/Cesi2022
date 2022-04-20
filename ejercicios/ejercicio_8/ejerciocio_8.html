@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../menu/menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#includedContent").load("../../menu/menu.html");
+      });
+    </script>
+    <style>
+      .img {
+        height: 300px;
+        width: 300px;
+      }
+      .red {
+        border-radius: 150px;
+        border: solid red 10px;
+      }
+      #grey {
+        border-radius: 150px;
+        border: solid grey 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="includedContent"></div>
+    <img class="img" src="./pic_trulli.jpg" alt="pic_trulli" /><br /><br />
+    <img class="img red" src="./pic_trulli.jpg" alt="pic_trulli" /><br /><br />
+    <img
+      class="img"
+      id="grey"
+      src="./pic_trulli.jpg"
+      alt="pic_trulli"
+    /><br /><br />
+    <img class="img red" src="./pic_trulli.jpg" alt="pic_trulli" />
+  </body>
+</html>

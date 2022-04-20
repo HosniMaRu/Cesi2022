@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.useWebExt": true,
+		"liveServer.settings.proxy": {
+			"enable": true, //   i. enabled
+			"baseUri": "/", //  ii. workspace
+			"proxyUri": "http://localhost:80/" // iii. actual address
+		},
+		"php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+		"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+		"liveServer.settings.donotVerifyTags": true,
+		"liveServer.settings.donotShowInfoMsg": true
+	}
+}

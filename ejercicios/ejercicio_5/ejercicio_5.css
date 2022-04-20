@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+.datos,
+.principal {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.datos {
+  width: 20%;
+}
+.principal {
+  width: 80%;
+}
+.principal ul {
+  padding: 0px;
+}
+.principal ul li {
+  list-style: none;
+  float: left;
+  width: 33%;
+}
