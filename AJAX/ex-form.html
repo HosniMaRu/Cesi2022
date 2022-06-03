@@ -1,0 +1,39 @@
+<!-- 
+    TODO    If ddbb !exist then create
+    TODO    Check UI 
+    TODO    Add new user
+        --- add input
+        TODO    Input pass to md5() add to ddbb
+    --- other form
+    TODO    Adding data then return all data user
+    --- other form
+    TODO    2 inputs mail/pass
+    TODO    1 button
+    TODO    login auth
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script defer src="./ex-form.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<form action="#" method="post">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" />
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" />
+			<label for="phone">Phone</label>
+			<input type="tel" name="phone" id="phone" />
+		</form>
+		<button id="send">Send</button>
+		<div>
+			<p id="result"></p>
+		</div>
+	</body>
+</html>
