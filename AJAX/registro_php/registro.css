@@ -1,0 +1,11 @@
+.input_error {
+	border: rgb(180, 0, 0) solid 1px;
+	background-color: rgb(255, 0, 0);
+}
+.input_success {
+	border: rgb(30, 139, 2) solid 1px;
+	background-color: rgb(60, 255, 0);
+}
+/* .hidden {
+	visibility: hidden;
+} */

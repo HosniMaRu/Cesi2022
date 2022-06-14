@@ -1,17 +1,23 @@
 # Cesi2022
 
 ##Ejercicios CESI
+
 > Ejercicios
 
-> >Ejercicios HTML
+> > Ejercicios HTML
 
-> >Ejercicios CSS
+> > Ejercicios CSS
 
-> >Ejercicios PHP - Forms
+> > Ejercicios PHP - Forms
 
-> >Ejercicios JS
+> > Ejercicios JS
 
-##Menu 
->Dropdown
->Smooth scrolling
->Responsive
+##Menu
+
+> Dropdown
+> Smooth scrolling
+> Responsive
+
+## dependencies
+
+composer

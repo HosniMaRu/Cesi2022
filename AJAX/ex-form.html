@@ -11,6 +11,8 @@
     TODO    1 button
     TODO    login auth
 
+	!! web site key: 6LemHlMgAAAAAGD8ffNCg2Je52M2sJsuLQU5xkH3
+	!! secret key: 6LemHlMgAAAAAL9dq7CKAZhtH-VGp_-460Em0rQU
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -19,21 +21,55 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
 		<script defer src="./ex-form.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	</head>
 	<body>
-		<form action="#" method="post">
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" />
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" />
-			<label for="phone">Phone</label>
-			<input type="tel" name="phone" id="phone" />
-		</form>
-		<button id="send">Send</button>
-		<div>
-			<p id="result"></p>
+		<div class="form_container succes_information">
+			<h3>Success information</h3>
+			<div id="succes_information"></div>
+		</div>
+		<h2>Create User</h2>
+		<div class="form_container">
+			<div class="form_container--direction">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" />
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" />
+				<label for="phone">Phone</label>
+				<input type="tel" name="phone" id="phone" />
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" />
+				<button class="form_container--button" id="send">Send</button>
+			</div>
+			<div class="form_container--response">
+				<p id="createResult"></p>
+			</div>
+		</div>
+		<h2>Search User</h2>
+		<div class="form_container">
+			<div class="form_container--direction">
+				<label for="emailSearch">Email</label>
+				<input type="email" name="emailSearch" id="emailSearch" />
+				<button class="form_container--button" id="searchUser">Search User</button>
+			</div>
+			<div class="form_container--response">
+				<p id="searchResult"></p>
+			</div>
+		</div>
+		<h2>Log User</h2>
+		<div class="form_container">
+			<div class="form_container--direction">
+				<label for="emailSign">Email</label>
+				<input type="email" name="emailSign" id="emailSign" />
+				<label for="passwordSign">Pass</label>
+				<input type="password" name="passwordSign" id="passwordSign" />
+				<button class="form_container--button" id="logUser">Log User</button>
+			</div>
+			<div class="form_container--response">
+				<p id="logResult"></p>
+			</div>
 		</div>
 	</body>
 </html>
