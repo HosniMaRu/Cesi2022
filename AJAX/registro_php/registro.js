@@ -55,7 +55,7 @@ function registrarUsuario() {
 				password: password_value,
 				captcha: captcha_value,
 			},
-			// dataType: "json",
+			dataType: "json",
 			success: function (response) {
 				console.log(response);
 				if (response == 0) {
