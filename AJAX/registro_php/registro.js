@@ -1,6 +1,5 @@
 "use strict";
 const button = document.getElementById("send");
-const submit_button = document.getElementById("submit");
 document.getElementById("send").addEventListener("click", registrarUsuario);
 grecaptcha.ready(function () {
 	// do request for recaptcha token
@@ -19,7 +18,7 @@ grecaptcha.ready(function () {
 function checkRecaptcha() {
 	const captcha_value = document.getElementById("g-recaptcha-response").value;
 	if (captcha_value != "") {
-		submit_button.disabled = false;
+		button.disabled = false;
 		return true;
 	}
 	return false;

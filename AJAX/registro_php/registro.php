@@ -83,8 +83,9 @@ function userToken($email, $myObj)
             $usuario->phone = $row['phone'];
             $usuario->password = $row['password'];
             $usuario->reg_date = $row['reg_date'];
+            $usuario->id = $row['id'];
         }
-        $xstring = $usuario->email . '-' . $usuario->name . '-' . $usuario->phone . '-' . $usuario->password . '-' . $usuario->reg_date;
+        $xstring = $usuario->id . "-" . $usuario->email . "-" . $usuario->name . "-" . $usuario->phone . "-" . $usuario->password . "-" . $usuario->reg_date;
         $token_user = sha1($xstring);
         $token_user;
         $myObj->userToken = $token_user;
@@ -115,7 +116,7 @@ function sendMail($usuario, $token_user, $myObj)
     //
     $SentToEmail = $usuario->email;
     $Asunto = "ninguno";
-    $BodyHTML = "<h1>hola " . $usuario->name . "</h1><br><a href='http://" . $_SERVER['HTTP_HOST'] . "/new_user.php?id=" . $usuario->id . "&clave=" . $token_user . "'><b>" . $token_user . "</b></a>";
+    $BodyHTML = "<h1>hola " . $usuario->name . "</h1><br><a href='http://" . $_SERVER['HTTP_HOST'] . "/AJAX/registro_php/new_user.php?id=" . $usuario->id . "&clave=" . $token_user . "'><b>" . $token_user . "</b></a>";
     $BodyNOHTML = "hola que tal?";
 
     //Load Composer's autoloader
